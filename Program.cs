@@ -16,11 +16,17 @@ for (int i = 0; i < n; i++)
 
 // --- INICIO DE LÓGICA DEL ALUMNO ---
 // Instrucción: El alumno debe encontrar el valor máximo del arreglo 'numeros'
-int maximo = numeros[0]; 
+int maximo = numeros[0];
 
 // TODO: Implementar el algoritmo de búsqueda aquí
+for (int i = 1; i < n; i++)
+{
+    if (numeros[i] > maximo)
 
-
+    {
+        maximo = numeros[i];
+    }
+}
 // --- FIN DE LÓGICA DEL ALUMNO ---
 
 // 2. Salida: Lo que el Autograding comparará
